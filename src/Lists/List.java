@@ -10,11 +10,13 @@ package Lists;
  */
 public interface List <T> { //Interfaz generica//
     
-    public boolean remove(T t);
+   
+    
+    public boolean add (T t);
     
     public T find(Object id);
     
-    public void showAll();
+    public boolean remove(T t);
     
-     
+    public void showAll();
 }
