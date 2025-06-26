@@ -6,8 +6,22 @@ package Lists;
 
 /**
  *
+<<<<<<< HEAD
  * @author bycha
  */
-public interface List <T>{
+
     public void 
+
+ * @author Dylan
+ */
+public interface List <T> { //Interfaz generica//
+    
+    public boolean add (T t);
+    
+    public T find(Object id);
+    
+    public boolean remove(T t);
+    
+    public void showAll();
+>>>>>>> 59f427b474ccc43bfadb6a46c284fd9bd8bdad34
 }
